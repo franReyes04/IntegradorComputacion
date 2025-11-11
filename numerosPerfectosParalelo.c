@@ -9,7 +9,7 @@ int isPerfect(int n){
             else sum = sum + i;
         }
     }
-    if (sum == n && n != 1)
+    if (sum == n && n > 1)
         return 1;
     return 0;
 }
